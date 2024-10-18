@@ -227,7 +227,7 @@ export default function About() {
                     {/* Section Content Block */}
                     <div className="mx-auto max-w-[600px]">
                     <h2 className="text-center">
-                        Kami mendorong segala sesuatu yang kami lakukan
+                        Kami mendorong segala sesuatu yang dapat kami lakukan
                     </h2>
                     </div>
                     {/* Section Content Block */}
@@ -422,7 +422,7 @@ export default function About() {
                             className="w-[266px] object-cover rounded-[10px] h-[250px]"
                         />
                         <div className="mb-4 mt-6">
-                            <div className="mb-1 text-xl font-semibold">Medhanita Dewi Renanti</div>
+                            <div className="mb-1 text-xl font-semibold">Medhanita Dewi Renanti, S.Kom, M.Kom</div>
                             <span className="block text-opacity-80">Advisor</span>
                         </div>
                     </div>

@@ -28,17 +28,17 @@ export default function Home() {
                       Sistem Informasi Ujian berbasis AI
                     </h1>
                     <p className="mb-10 max-w-[624px] xl:mb-[50px]">
-                    AI generatif untuk menghasilkan soal ujian berdasarkan materi modul dan menganalisis jawaban siswa, meningkatkan efektivitas pembelajaran dan memberikan rekomendasi pengajaran yang lebih tepat.
+                    EvaloExam menggunakan AI generatif untuk menghasilkan soal ujian berdasarkan materi modul dan menganalisis jawaban siswa, meningkatkan efektivitas pembelajaran dan memberikan rekomendasi pengajaran yang lebih tepat.
                     </p>
                     <div className="mb-6 flex flex-wrap justify-center gap-5 sm:justify-normal">
                       <a
-                        href="/api/auth/signin?callbackUrl=http%3A%2F%2Fexamai.web.id%3A3000%2Fhome"
+                        href="https://bit.ly/contact-evaloexam"
                         className="btn is-blue btn-animation is-large inline-block rounded"
                       >
                         <span>Coba Sekarang</span>
                       </a>
                       <a
-                        href="/"
+                        href="/about"
                         className="btn is-outline-black btn-animation is-large inline-block rounded"
                       >
                         <span>Pelajari lebih lanjut</span>
@@ -115,7 +115,7 @@ export default function Home() {
                   {/* Section Content Block */}
                   <div className="mx-auto max-w-[636px]">
                     <h2 className="text-center">
-                      Berisi fitur modern untuk pengalaman yang lebih baik
+                      Berisi fitur modern untuk pengalaman pembelajaran yang lebih baik
                     </h2>
                   </div>
                   {/* Section Content Block */}
@@ -288,7 +288,7 @@ export default function Home() {
                     </p>
                     <div className="mt-[50px]">
                       <a
-                        href="/"
+                        href="/about"
                         className="btn is-black btn-animation is-large inline-block rounded"
                       >
                         <span>Pelajari lebih lanjut</span>
@@ -379,7 +379,7 @@ export default function Home() {
                 {/* Section Content Wrapper */}
                 <div className="jos flex justify-center">
                   <a
-                    href="/api/auth/signin?callbackUrl=http%3A%2F%2Fexamai.web.id%3A3000%2Fcheck-profile"
+                    href="https://bit.ly/contact-evaloexam"
                     className="btn is-black btn-animation is-large inline-block rounded"
                   >
                     <span>Coba Sekarang</span>

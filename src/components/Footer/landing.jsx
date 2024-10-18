@@ -22,13 +22,7 @@ export default function FooterLanding() {
                             <div className="lg:max-w-[320px]">
                             Ujian kustom berbasis AI, Meningkatkan kualitas pembelajaran semua dalam satu platform untuk membantumu.
                             </div>
-                            {/* Footer Mail */}
-                            <a
-                            href="evaloexam@gmail.com"
-                            className="my-6 block underline-offset-4 transition-all duration-300 hover:underline"
-                            >
-                            evaloexam@gmail.com
-                            </a>
+                        
                         </div>
                         {/* Footer Content */}
                         </div>
@@ -59,7 +53,15 @@ export default function FooterLanding() {
                             </li>
                             <li>
                             <a
-                                href="/contact-us"
+                                href="/pricing"
+                                className="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
+                            >
+                                Pricing
+                            </a>
+                            </li>
+                            <li>
+                            <a
+                                href="https://bit.ly/contact-evaloexam"
                                 className="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
                             >
                                 Bantuan
@@ -69,20 +71,31 @@ export default function FooterLanding() {
                         </div>
                         <div className="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1">
                         {/* Footer Title */}
-                        <div className="text-xl font-semibold capitalize">Layanan</div>
+                        <div className="text-xl font-semibold capitalize">Kontak Kami</div>
                         {/* Footer Title */}
                         {/* Footer Navbar */}
                         <ul className="flex flex-col gap-y-[10px] capitalize">
                             <li>
                             <a
-                                href="https://www.example.com/"
+                                href="https://www.instagram.com/evaloexam"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
                             >
-                                Video Pengunaan
+                                Instagram
                             </a>
                             </li>
+                            <li>
+                                <a
+                                    href="mailto:evaloexam@gmail.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:opacity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
+                                >
+                                    Email
+                                </a>
+                            </li>
+
                         </ul>
                         </div>
                         <div className="flex flex-col gap-y-3 md:col-span-1 lg:col-span-1">

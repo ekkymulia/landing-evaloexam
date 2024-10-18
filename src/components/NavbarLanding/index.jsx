@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 
 export default function NavbarLanding() {
@@ -58,7 +59,8 @@ export default function NavbarLanding() {
       <div className="container-default">
         <div className="flex items-center justify-between gap-x-8">
           {/* Header Logo */}
-          <a href="/" className="">
+          <a href="/" className="flex gap-2 items-center">
+            <Image src={`/images/evaloexam-logo.jpeg`} alt="" width="48" height="48" />
             <p className="text-2xl font-bold text-black">EvaloExam</p>
           </a>
           <div className="menu-block-wrapper">

@@ -27,7 +27,7 @@ export default function Pricing() {
                   {/* Section Content Block */}
                   <div className="mx-auto max-w-[636px]">
                     <h2 className="text-center">
-                      Paket Terjangkau untuk Kebutuhan Pembelajaran Anda
+                      Paket yang Terjangkau untuk Kebutuhan Pembelajaran Anda
                     </h2>
                   </div>
                   {/* Section Content Block */}
@@ -38,28 +38,7 @@ export default function Pricing() {
                   {/* Feature Item */}
                   <div className="jos" data-jos_delay={0}>
                     <div className="hover-solid-shadow h-full">
-                      <div className="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
-                        <img
-                          src="https://masco-tailwind.netlify.app/assets/img/icons/icon-duotone-translate.svg"
-                          alt="icon-duotone-translate"
-                          width={60}
-                          height={60}
-                          className="mb-[30px] h-[60px] w-auto"
-                        />
-                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
-                          Paket per Semeste
-                        </div>
-                        <p>
-                          Soal dibuat berdasarkan analisis respons siswa menggunakan Generative AI
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  {/* Feature Item */}
-                  {/* Feature Item */}
-                  <div className="jos" data-jos_delay="0.3">
-                    <div className="hover-solid-shadow h-full">
-                      <div className="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                      <div className="justify-start items-start h-full flex flex-col rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
                         <img
                           src="https://masco-tailwind.netlify.app/assets/img/icons/icon-duotone-user-list.svg"
                           alt="icon-duotone-user-list"
@@ -68,11 +47,55 @@ export default function Pricing() {
                           className="mb-[30px] h-[60px] w-auto"
                         />
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
-                          Manajemen pelajaran
+                          Paket per Semester
                         </div>
-                        <p>
-                          Dashboard khusus yang digunakan untuk manajemen materi, modul, ruangan ujian
-                        </p>
+                        <p className="my-0"><strong>Yang akan anda dapatkan:</strong></p>
+                        <ul className="mb-5">
+                          <li><strong>- 10x Upload Pelajaran Berbeda</strong></li>
+                          <li><strong>- 10x Ruang Ujian Digital</strong></li>
+                          <li><strong>- 150x Sesi Siswa</strong></li>
+                          <li><strong>- 4500x Generasi dan Analisa soal menggunakan AI</strong></li>
+                        </ul>
+                        <div className="mt-auto w-full flex justify-end items-end">
+                          <a
+                            href="https://bit.ly/contact-evaloexam"
+                            className="w-full btn is-outline-black btn-animation is-large inline-block rounded justify-end items-end"
+                          >
+                            <span>Pilih Paket</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Feature Item */}
+                  {/* Feature Item */}
+                  <div className="jos" data-jos_delay="0.3">
+                    <div className="hover-solid-shadow h-full">
+                      <div className="justify-start items-start h-full flex flex-col rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                        <img
+                          src="https://masco-tailwind.netlify.app/assets/img/icons/icon-duotone-user-list.svg"
+                          alt="icon-duotone-user-list"
+                          width={60}
+                          height={60}
+                          className="mb-[30px] h-[60px] w-auto"
+                        />
+                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
+                          Paket Licensed Solution
+                        </div>
+                        <p className="my-0"><strong>Yang akan anda dapatkan:</strong></p>
+                        <ul className="mb-5">
+                          <li><strong>- Lisensi Digital dan Salinan Produk untuk dijalankan di server sendiri</strong></li>
+                          <li><strong>- Kostumisasi lebih lanjut pada produk yang lebih disesuaikan</strong></li>
+                          <li><strong>- Maintanance Update Patch dan Security</strong></li>
+                        </ul>
+                        <div className="mt-auto w-full flex justify-end items-end">
+                          <a
+                            href="https://bit.ly/contact-evaloexam"
+                            className="w-full btn is-outline-black btn-animation is-large inline-block rounded justify-end items-end"
+                          >
+                            <span>Pilih Paket</span>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -80,23 +103,36 @@ export default function Pricing() {
                   {/* Feature Item */}
                   <div className="jos" data-jos_delay="0.6">
                     <div className="hover-solid-shadow h-full">
-                      <div className="h-full rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
+                      <div className="justify-start items-start h-full flex flex-col rounded-[10px] border-2 border-ColorBlack bg-white p-[30px]">
                         <img
-                          src="https://masco-tailwind.netlify.app/assets/img/icons/icon-duotone-private-message.svg"
-                          alt="icon-duotone-private-message"
+                          src="https://masco-tailwind.netlify.app/assets/img/icons/icon-duotone-user-list.svg"
+                          alt="icon-duotone-user-list"
                           width={60}
                           height={60}
                           className="mb-[30px] h-[60px] w-auto"
                         />
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
-                          Hasil evaluasi dari AI
+                          Paket Starter
                         </div>
-                        <p>
-                          Laporan hasil evaluasi yang digabung dengan feedback dari Generative AI
-                        </p>
+                        <p className="my-0"><strong>Yang akan anda dapatkan:</strong></p>
+                        <ul className="mb-5">
+                          <li><strong>- Berlangganan per Bulan dengan kuota penggunaan</strong></li>
+                          <li><strong>- Cocok untuk pay as you go</strong></li>
+                        </ul>
+
+                        <div className="w-full mt-auto flex justify-end items-end">
+                          <a
+                            href="https://bit.ly/contact-evaloexam"
+                            className="w-full btn is-outline-black btn-animation is-large inline-block rounded justify-end items-end"
+                          >
+                            <span>Pilih Paket</span>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
+
+
                   {/* Feature Item */}
                 </div>
                 {/* Feature List */}
@@ -108,113 +144,6 @@ export default function Pricing() {
           {/* Section Background */}
         </section>
         {/*...::: Features Section End :::... */}
-        {/*...::: Fact Section Start :::... */}
-        <section className="section-fact">
-            {/* Section Space */}
-            <div className="section-space">
-            {/* Section Container */}
-            <div className="container-custom has-container-custom">
-                {/* Fact Area Block */}
-                <div className="grid gap-10 gap-x-12 lg:grid-cols-2 xl:grid-cols-[1fr_minmax(0,_0.7fr)] xxl:gap-x-[185px]">
-                {/* Content Block Left */}
-                <div
-                    className="jos"
-                    data-jos_animation="fade-right"
-                    data-jos_delay={0}
-                >
-                    {/* Section Wrapper */}
-                    <div>
-                    {/* Section Block */}
-                    <div className="mb-5">
-                        <h2>
-                        Bukan hanya aplikasi, tapi identitas pembelajaran modern dan inovatif.
-                        </h2>
-                    </div>
-                    {/* Section Block */}
-                    <p>
-                        Dengan teknologi kecerdasan buatan, kami menciptakan pengalaman belajar yang lebih personal dan adaptif, membuat proses belajar menjadi lebih intuitif dan terarah.
-                    </p>
-                    </div>
-                </div>
-                {/* Content Block Left */}
-                {/* Content Block Right */}
-                <div>
-                    {/* Counter List */}
-                    <div className="grid items-center justify-center gap-6 sm:grid-cols-2 sm:gap-0.5 sm:bg-ColorOffWhite">
-                    {/* Counter Item */}
-                    <div className="text-center sm:bg-white sm:pb-10">
-                        <div
-                        className="mb-1 font-PlusJakartaSans text-4xl font-extrabold leading-[1.2] -tracking-[1px] text-ColorBlack sm:text-5xl lg:text-[64px] xl:text-[70px]"
-                        data-module="countup"
-                        >
-                        <span className="start-number" data-countup-number={36}>
-                            77.08
-                        </span>
-                        
-                        </div>
-                        <span className="text-xl font-semibold text-ColorBlue">
-                        Skor System Usability
-                        </span>
-                    </div>
-                    {/* Counter Item */}
-                    {/* Counter Item */}
-                    <div className="text-center sm:bg-white sm:pb-10">
-                        <div
-                        className="mb-1 font-PlusJakartaSans text-4xl font-extrabold leading-[1.2] -tracking-[1px] text-ColorBlack sm:text-5xl lg:text-[64px] xl:text-[70px]"
-                        data-module="countup"
-                        >
-                        <span className="start-number" data-countup-number={80}>
-                            30+
-                        </span>
-                        </div>
-                        <span className="text-xl font-semibold text-ColorBlue">
-                        Tester Pengguna
-                        </span>
-                    </div>
-                    {/* Counter Item */}
-                    {/* Counter Item */}
-                    <div className="text-center sm:bg-white sm:pt-10">
-                        <div
-                        className="mb-1 font-PlusJakartaSans text-4xl font-extrabold leading-[1.2] -tracking-[1px] text-ColorBlack sm:text-5xl lg:text-[64px] xl:text-[70px]"
-                        data-module="countup"
-                        >
-                        <span className="start-number" data-countup-number={54}>
-                            Finalis 
-                        </span>
-                    
-                        </div>
-                        <span className="text-xl font-semibold text-ColorBlue">
-                        Kompetisi Gemastik oleh Kemdikbudristek
-                        </span>
-                    </div>
-                    {/* Counter Item */}
-                    {/* Counter Item */}
-                    <div className="text-center sm:bg-white sm:pt-10">
-                        <div
-                        className="mb-1 font-PlusJakartaSans text-4xl font-extrabold leading-[1.2] -tracking-[1px] text-ColorBlack sm:text-5xl lg:text-[64px] xl:text-[70px]"
-                        data-module="countup"
-                        >
-                        <span className="start-number" data-countup-number={36}>
-                            Finalis
-                        </span>
-                        </div>
-                        <span className="text-xl font-semibold text-ColorBlue">
-                        Indonesia AI Innovation Challange 2024
-                        </span>
-                    </div>
-                    {/* Counter Item */}
-                    </div>
-                    {/* Counter List */}
-                </div>
-                {/* Content Block Right */}
-                </div>
-                {/* Fact Area Block */}
-            </div>
-            {/* Section Container */}
-            </div>
-            {/* Section Space */}
-        </section>
-        {/*...::: Fact Section End :::... */}
         {/*...::: Feature Section Start :::... */}
         <section className="section-features">
             <div className="bg-ColorOffWhite">
@@ -227,7 +156,7 @@ export default function Pricing() {
                     {/* Section Content Block */}
                     <div className="mx-auto max-w-[600px]">
                     <h2 className="text-center">
-                        Kami mendorong segala sesuatu yang kami lakukan
+                        Kami mendorong segala sesuatu yang dapat kami lakukan
                     </h2>
                     </div>
                     {/* Section Content Block */}
@@ -251,10 +180,10 @@ export default function Pricing() {
                         />
                         <div>
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5] xxl:text-2xl">
-                            Efisiensi Pembelajaran
+                        Dukungan Pelanggan yang Responsif
                         </div>
                         <p>
-                            Fokus pada area penting dengan soal-soal yang relevan.
+                        Kami menghargai setiap pelanggan yang telah mempercayai layanan kami. Tim dukungan kami siap membantu menyelesaikan masalah Anda dengan cepat dan efisien.
                         </p>
                         </div>
                     </div>
@@ -276,10 +205,10 @@ export default function Pricing() {
                         />
                         <div>
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5] xxl:text-2xl">
-                            Kreatifitas Siswa
+                        Nilai yang Baik dan Solusi yang Efektif
                         </div>
                         <p>
-                            Siswa akan semakin kreatif dalam menjawab ujian.
+                        Kami berkomitmen untuk memajukan edukasi di era teknologi AI yang berkembang. Tujuan kami adalah memberikan kontribusi positif dalam transisi dari Era Informasi ke Era AI, sambil menawarkan solusi yang terjangkau dan memberikan nilai lebih kepada pengguna kami.
                         </p>
                         </div>
                     </div>
@@ -293,56 +222,6 @@ export default function Pricing() {
                     >
                     <div className="flex flex-col gap-6 text-center lg:flex-row lg:text-left">
                         <img
-                        src="https://masco-tailwind.netlify.app/assets/img/icons/icon-yellow-feature-3.svg"
-                        alt="icon-yellow-feature-3"
-                        width={60}
-                        height={60}
-                        className="mx-auto h-[60px] w-[60px] lg:mx-0"
-                        />
-                        <div>
-                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5] xxl:text-2xl">
-                            Inovasi dan Solusi
-                        </div>
-                        <p>
-                            Pembelajaran modern dapat menyelesaikan berbagai masalah.
-                        </p>
-                        </div>
-                    </div>
-                    </div>
-                    {/* Feature Item */}
-                    {/* Feature Item */}
-                    <div
-                    className="jos"
-                    data-jos_animation="fade-right"
-                    data-jos_delay="0.9"
-                    >
-                    <div className="flex flex-col gap-6 text-center lg:flex-row lg:text-left">
-                        <img
-                        src="https://masco-tailwind.netlify.app/assets/img/icons/icon-yellow-feature-4.svg"
-                        alt="icon-yellow-feature-4"
-                        width={60}
-                        height={60}
-                        className="mx-auto h-[60px] w-[60px] lg:mx-0"
-                        />
-                        <div>
-                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5] xxl:text-2xl">
-                            Produk Berkualitas
-                        </div>
-                        <p>
-                            Kualitas produk kami mengacu pada kepuasan kalian.
-                        </p>
-                        </div>
-                    </div>
-                    </div>
-                    {/* Feature Item */}
-                    {/* Feature Item */}
-                    <div
-                    className="jos"
-                    data-jos_animation="fade-right"
-                    data-jos_delay="1.2"
-                    >
-                    <div className="flex flex-col gap-6 text-center lg:flex-row lg:text-left">
-                        <img
                         src="https://masco-tailwind.netlify.app/assets/img/icons/icon-yellow-feature-5.svg"
                         alt="icon-yellow-feature-5"
                         width={60}
@@ -351,35 +230,10 @@ export default function Pricing() {
                         />
                         <div>
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5] xxl:text-2xl">
-                            Pengguna Puas
+                        Pelanggan yang Puas dan Selalu Mendengar Suara Anda
                         </div>
                         <p>
-                            Pengguna yang senang dengan layanan yang kami berikan.
-                        </p>
-                        </div>
-                    </div>
-                    </div>
-                    {/* Feature Item */}
-                    {/* Feature Item */}
-                    <div
-                    className="jos"
-                    data-jos_animation="fade-right"
-                    data-jos_delay="1.5"
-                    >
-                    <div className="flex flex-col gap-6 text-center lg:flex-row lg:text-left">
-                        <img
-                        src="https://masco-tailwind.netlify.app/assets/img/icons/icon-yellow-feature-6.svg"
-                        alt="icon-yellow-feature-6"
-                        width={60}
-                        height={60}
-                        className="mx-auto h-[60px] w-[60px] lg:mx-0"
-                        />
-                        <div>
-                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5] xxl:text-2xl">
-                            Tampilan Sederhana
-                        </div>
-                        <p>
-                            Kesederhanaan digunakan untuk memudahkan kalian.
+                        Kami percaya pada potensi aplikasi kami dan sangat menghargai umpan balik dari Anda. Setiap saran dan masukan akan dipertimbangkan untuk meningkatkan pengalaman pengguna.
                         </p>
                         </div>
                     </div>
@@ -387,102 +241,6 @@ export default function Pricing() {
                     {/* Feature Item */}
                 </div>
                 {/* Feature List */}
-                </div>
-                {/* Section Container */}
-            </div>
-            {/* Section Space */}
-            </div>
-        </section>
-        <section className="section-team">
-            <div className="bg-ColorOffWhite">
-            {/* Section Space */}
-            <div className="section-space">
-                {/* Section Container */}
-                <div className="container-default">
-                {/* Section Content Wrapper */}
-                <div className="jos mb-[60px] xl:mb-20">
-                    {/* Section Content Block */}
-                    <div className="mx-auto max-w-[526px]">
-                    <h2 className="text-center">
-                        Tim Hebat di Balik Produk Kreatif Kami
-                    </h2>
-                    </div>
-                    {/* Section Content Block */}
-                </div>
-                {/* Section Content Wrapper */}
-                {/* Team List */}
-                <div className="grid gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-4 place-items-center mx-auto">
-                    {/* Team Item */}
-                    <div className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center" data-jos_animation="flip-left">
-                        <img
-                            src="https://www.radioidola.com/wp-content/uploads/2023/05/Medhanita-Dewi-Renanti.jpg"
-                            alt="team-img-4"
-                            width={266}
-                            height={250}
-                            className="w-[266px] object-cover rounded-[10px] h-[250px]"
-                        />
-                        <div className="mb-4 mt-6">
-                            <div className="mb-1 text-xl font-semibold">Medhanita Dewi Renanti</div>
-                            <span className="block text-opacity-80">Advisor</span>
-                        </div>
-                    </div>
-                    {/* Team Item */}
-                    {/* Team Item */}
-                    <div className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center" data-jos_animation="flip-left">
-                        <img
-                            src="https://i.ibb.co/dfggLRZ/ekky.jpg"  
-                            alt="team-img-1"
-                            width={266}
-                            height={250}
-                            className="w-[266px] object-cover rounded-[10px] h-[250px]"
-                        />
-                        <div className="mb-4 mt-6">
-                            <div className="mb-1 text-xl font-semibold">Ekky Mulia Lasardi</div>
-                            <span className="block text-opacity-80">CEO &amp; Founder</span>
-                        </div>
-                    </div>
-                    {/* Team Item */}
-                    {/* Team Item */}
-                    {/* <div
-                    className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center"
-                    data-jos_animation="flip-left"
-                    >
-                    <img
-                        src="https://i.ibb.co.com/znY14xt/mamat.jpg"
-                        alt="team-img-2"
-                        width={266}
-                        height={250}
-                        className="h-auto w-full rounded-[10px] lg:w-auto"
-                    />
-                    <div className="mb-4 mt-6">
-                        <div className="mb-1 text-xl font-semibold">
-                        Muhammad Rahmat
-                        </div>
-                        <span className="block text-opacity-80">Co-founder</span>
-                    </div>
-                    </div> */}
-                    {/* Team Item */}
-                    {/* Team Item */}
-                    {/* <div
-                    className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center"
-                    data-jos_animation="flip-left"
-                    >
-                    <img
-                        src="https://i.ibb.co.com/M957xdb/wahyu-removebg-preview-1.png"
-                        alt="team-img-3"
-                        width={266}
-                        height={250}
-                        className="w-[266px] object-cover rounded-[10px] h-[250px]"
-                    />
-                    <div className="mb-4 mt-6">
-                        <div className="mb-1 text-xl font-semibold">Wahyu Mustika Aji</div>
-                        <span className="block text-opacity-80">Co-Founder</span>
-                    </div>
-                    </div> */}
-                    {/* Team Item */}
-                    
-                </div>
-                {/* Team List */}
                 </div>
                 {/* Section Container */}
             </div>
