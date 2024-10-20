@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react"; // Ensure this is imported
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -45,6 +46,8 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextUIProvider>{children}</NextUIProvider>
       </body>
+      <GoogleTagManager gtmId="K4FCKM6J"/>
+      <GoogleAnalytics gaId="G-T62XEC88HN"/>
     </html>
   );
 }

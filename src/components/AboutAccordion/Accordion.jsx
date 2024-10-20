@@ -46,7 +46,7 @@ const Accordion = () => {
     },
     {
       title: 'E. Bagaimana EvaloExam mempersonalisasi soal-soal ujian?',
-      content: 'EvaloExam menganalisis materi yang Anda unggah dan menyesuaikan pertanyaan berdasarkan topik dan tingkat kesulitan, sehingga Anda mendapatkan soal-soal yang paling relevan dengan kebutuhan Anda.'
+      content: 'EvaloExam menganalisis materi yang Anda unggah dan menyesuaikan pertanyaan berdasarkan topik dan tingkat kesulitan, sehingga akan mendapatkan soal-soal yang paling relevan dengan modul, setelah soal tersebut dibuat dan dijawab oleh siswa, soal akan dijadikan juga sebagai pertimbangan pembuatan soal selanjutnya.'
     }
   ];
 

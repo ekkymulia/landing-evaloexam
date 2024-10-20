@@ -329,7 +329,7 @@ export default function About() {
                             Produk Berkualitas
                         </div>
                         <p>
-                            Kualitas produk kami mengacu pada kepuasan kalian.
+                            Kualitas produk kami mengacu pada kepuasan pengguna.
                         </p>
                         </div>
                     </div>
@@ -379,7 +379,7 @@ export default function About() {
                             Tampilan Sederhana
                         </div>
                         <p>
-                            Kesederhanaan digunakan untuk memudahkan kalian.
+                            Kesederhanaan digunakan untuk memudahkan pengguna.
                         </p>
                         </div>
                     </div>
