@@ -43,10 +43,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="id"> {/* Change lang attribute to "id" */}
+      <GoogleTagManager gtmId="GTM-K4FCKM6J"/>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextUIProvider>{children}</NextUIProvider>
       </body>
-      <GoogleTagManager gtmId="K4FCKM6J"/>
       <GoogleAnalytics gaId="G-T62XEC88HN"/>
     </html>
   );
