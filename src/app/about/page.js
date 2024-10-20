@@ -227,7 +227,7 @@ export default function About() {
                     {/* Section Content Block */}
                     <div className="mx-auto max-w-[600px]">
                     <h2 className="text-center">
-                        Kami mendorong segala sesuatu yang dapat kami lakukan
+                        Kami berusaha untuk membuat produk yang dapat membantu anda
                     </h2>
                     </div>
                     {/* Section Content Block */}
@@ -415,7 +415,7 @@ export default function About() {
                     {/* Team Item */}
                     <div className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center" data-jos_animation="flip-left">
                         <img
-                            src="https://www.radioidola.com/wp-content/uploads/2023/05/Medhanita-Dewi-Renanti.jpg"
+                            src="/images/teams/medhanita.webp"
                             alt="team-img-4"
                             width={266}
                             height={250}
@@ -430,7 +430,7 @@ export default function About() {
                     {/* Team Item */}
                     <div className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center" data-jos_animation="flip-left">
                         <img
-                            src="https://i.ibb.co/dfggLRZ/ekky.jpg"  
+                            src="/images/teams/ekky.jpg"  
                             alt="team-img-1"
                             width={266}
                             height={250}
@@ -439,6 +439,32 @@ export default function About() {
                         <div className="mb-4 mt-6">
                             <div className="mb-1 text-xl font-semibold">Ekky Mulia Lasardi</div>
                             <span className="block text-opacity-80">CEO &amp; Founder</span>
+                        </div>
+                    </div>
+                    <div className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center" data-jos_animation="flip-left">
+                        <img
+                            src="/images/teams/sani.jpeg"  
+                            alt="team-img-1"
+                            width={266}
+                            height={250}
+                            className="w-[266px] object-cover rounded-[10px] h-[250px]"
+                        />
+                        <div className="mb-4 mt-6">
+                            <div className="mb-1 text-xl font-semibold">Sanniyah Wafa Nurjihan</div>
+                            <span className="block text-opacity-80">Member</span>
+                        </div>
+                    </div>
+                    <div className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center" data-jos_animation="flip-left">
+                        <img
+                            src="/images/teams/dimas.jpeg"  
+                            alt="team-img-1"
+                            width={266}
+                            height={250}
+                            className="w-[266px] object-cover rounded-[10px] h-[250px]"
+                        />
+                        <div className="mb-4 mt-6">
+                            <div className="mb-1 text-xl font-semibold">Dimas Akbar Tama</div>
+                            <span className="block text-opacity-80">Member</span>
                         </div>
                     </div>
                     {/* Team Item */}

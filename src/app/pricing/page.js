@@ -49,19 +49,25 @@ export default function Pricing() {
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
                           Paket per Semester
                         </div>
+                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
+                          IDR 10.850.000,-
+                        </div>
                         <p className="my-0"><strong>Yang akan anda dapatkan:</strong></p>
                         <ul className="mb-5">
                           <li><strong>- 10x Upload Pelajaran Berbeda</strong></li>
-                          <li><strong>- 10x Ruang Ujian Digital</strong></li>
-                          <li><strong>- 150x Sesi Siswa</strong></li>
+                          <li><strong>- 10x Ruang Ujian</strong></li>
+                          <li><strong>- 150x Sesi Siswa Mengerjakan</strong></li>
                           <li><strong>- 4500x Generasi dan Analisa soal menggunakan AI</strong></li>
+                          <li className="mt-4"><strong>Kuota Sistem:</strong></li>
+                          <li><strong>- 1x Kuota Pembuatan Institusi</strong></li>
+                          <li><strong>- 12+ Akun Multi Role (2x Akun Admin, 10x Akun Pengajar, Unlimited Akun Siswa)</strong></li>
                         </ul>
                         <div className="mt-auto w-full flex justify-end items-end">
                           <a
                             href="https://bit.ly/contact-evaloexam"
                             className="w-full btn is-outline-black btn-animation is-large inline-block rounded justify-end items-end"
                           >
-                            <span>Pilih Paket</span>
+                            <span>Kontak Kami</span>
                           </a>
                         </div>
                       </div>
@@ -82,18 +88,24 @@ export default function Pricing() {
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
                           Paket Licensed Solution
                         </div>
+                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
+                          IDR 64.999.999,-
+                        </div>
                         <p className="my-0"><strong>Yang akan anda dapatkan:</strong></p>
                         <ul className="mb-5">
                           <li><strong>- Lisensi Digital dan Salinan Produk untuk dijalankan di server sendiri</strong></li>
                           <li><strong>- Kostumisasi lebih lanjut pada produk yang lebih disesuaikan</strong></li>
                           <li><strong>- Maintanance Update Patch dan Security</strong></li>
+                          <li className="mt-4"><strong>Kuota Sistem:</strong></li>
+                          <li><strong>- Unlimited Kuota Pembuatan Institusi</strong></li>
+                          <li><strong>- Unlimited Akun Multi Role</strong></li>
                         </ul>
                         <div className="mt-auto w-full flex justify-end items-end">
                           <a
                             href="https://bit.ly/contact-evaloexam"
                             className="w-full btn is-outline-black btn-animation is-large inline-block rounded justify-end items-end"
                           >
-                            <span>Pilih Paket</span>
+                            <span>Kontak Kami</span>
                           </a>
                         </div>
                       </div>
@@ -114,10 +126,18 @@ export default function Pricing() {
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
                           Paket Starter
                         </div>
-                        <p className="my-0"><strong>Yang akan anda dapatkan:</strong></p>
+                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
+                          IDR 1.547.435,- / bulan
+                        </div>
+                        <p className="my-0"><strong>Yang akan anda dapatkan (per bulan):</strong></p>
                         <ul className="mb-5">
-                          <li><strong>- Berlangganan per Bulan dengan kuota penggunaan</strong></li>
-                          <li><strong>- Cocok untuk pay as you go</strong></li>
+                          <li><strong>- 1x Upload Pelajaran Berbeda</strong></li>
+                          <li><strong>- 5x Ruang Ujian</strong></li>
+                          <li><strong>- 15x Sesi Siswa Mengerjakan</strong></li>
+                          <li><strong>- 225x Generasi dan Analisa soal menggunakan AI</strong></li>
+                          <li className="mt-4"><strong>Kuota Sistem:</strong></li>
+                          <li><strong>- 1x Kuota Pembuatan Institusi</strong></li>
+                          <li><strong>- 3+ Akun Multi Role (1x Akun Admin, 2x Akun Pengajar, Unlimited Akun Siswa)</strong></li>
                         </ul>
 
                         <div className="w-full mt-auto flex justify-end items-end">
@@ -125,7 +145,7 @@ export default function Pricing() {
                             href="https://bit.ly/contact-evaloexam"
                             className="w-full btn is-outline-black btn-animation is-large inline-block rounded justify-end items-end"
                           >
-                            <span>Pilih Paket</span>
+                            <span>Kontak Kami</span>
                           </a>
                         </div>
                       </div>
@@ -154,9 +174,9 @@ export default function Pricing() {
                 {/* Section Content Wrapper */}
                 <div className="jos mb-[60px] xl:mb-20">
                     {/* Section Content Block */}
-                    <div className="mx-auto max-w-[600px]">
+                    <div className="mx-auto max-w-[700px]">
                     <h2 className="text-center">
-                        Kami mendorong segala sesuatu yang dapat kami lakukan
+                        Harga paling terjangkau dikelasnya, dengan banyak benefit tambahan.
                     </h2>
                     </div>
                     {/* Section Content Block */}
@@ -205,10 +225,10 @@ export default function Pricing() {
                         />
                         <div>
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5] xxl:text-2xl">
-                        Nilai yang Baik dan Solusi yang Efektif
+                        Promo bagi para Early Adopters
                         </div>
                         <p>
-                        Kami berkomitmen untuk memajukan edukasi di era teknologi AI yang berkembang. Tujuan kami adalah memberikan kontribusi positif dalam transisi dari Era Informasi ke Era AI, sambil menawarkan solusi yang terjangkau dan memberikan nilai lebih kepada pengguna kami.
+                        Kami berkomitmen untuk memajukan edukasi di era teknologi AI yang berkembang. <strong>Kami memberikan promo khusus sampai 50%</strong> bagi pengguna yang mendaftar lebih awal.
                         </p>
                         </div>
                     </div>
@@ -230,10 +250,10 @@ export default function Pricing() {
                         />
                         <div>
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5] xxl:text-2xl">
-                        Pelanggan yang Puas dan Selalu Mendengar Suara Anda
+                        Selalu Mendengar Suara Anda
                         </div>
                         <p>
-                        Kami percaya pada potensi aplikasi kami dan sangat menghargai umpan balik dari Anda. Setiap saran dan masukan akan dipertimbangkan untuk meningkatkan pengalaman pengguna.
+                        Kami percaya pada potensi aplikasi kami dan sangat menghargai umpan balik dari Anda. Kami siap untuk menambahkan dan mempebaiki fitur sesuai dengan masukan dari anda.
                         </p>
                         </div>
                     </div>

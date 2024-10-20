@@ -105,13 +105,13 @@ export default function NavbarLanding() {
           {/* Header User Event */}
           <div className="flex items-center gap-6">
             {/* <a
-              href="/api/auth/signin?callbackUrl=http%3A%2F%2Fexamai.web.id%3A3000%2Fcheck-profile"
+              href="/api/auth/signin?callbackUrl=http%3A%2F%2FEvaloExam.web.id%3A3000%2Fcheck-profile"
               className="btn-text hidden hover:text-cyan-400 sm:inline-block"
             >
               Masuk akun lain
             </a> */}
             <a
-              href="https://examai.web.id"
+              href="https://EvaloExam.web.id"
               className="btn is-black btn-animation group hidden rounded sm:inline-block"
             >
               <span>Masuk ke Aplikasi</span>

@@ -20,7 +20,7 @@ export default function FooterLanding() {
                         <div>
                             {/* Footer About Text */}
                             <div className="lg:max-w-[320px]">
-                            Ujian kustom berbasis AI, Meningkatkan kualitas pembelajaran semua dalam satu platform untuk membantumu.
+                            Sistem Informasi Ujian Berbasis AI, memudahkan pengajar dalam membuat soal ujian dan analisis jawaban yang relevan dan efektif secara otomatis oleh AI.
                             </div>
                         
                         </div>

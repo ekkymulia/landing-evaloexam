@@ -29,24 +29,24 @@ const Accordion = () => {
 
   const items = [
     {
-      title: 'A. Apa itu ExamAI?',
-      content: 'ExamAI adalah aplikasi yang menggunakan kecerdasan buatan untuk mengonversi konten dari dokumen, seperti PDF, menjadi soal-soal ujian yang relevan dan efektif.'
+      title: 'A. Apa itu EvaloExam?',
+      content: 'EvaloExam adalah sistem informasi ujian yang menggunakan kecerdasan buatan untuk mengonversi konten modul dari dokumen, seperti PDF, menjadi batasan untuk pembuatan soal-soal ujian yang relevan dan efektif secara otomatis oleh AI. Hasil jawaban siswa kemudian di proses dan dibuat sebagai laporan hasil ujian yang mendalam berdasarkan insight yang di ekstrak oleh AI bagi siswa dan pengajar untuk meningkatkan kualitas pembelajaran.'
     },
     {
-      title: 'B. Bagaimana cara kerja ExamAI?',
-      content: 'Anda cukup mengunggah dokumen yang ingin Anda pelajari, dan ExamAI akan secara otomatis menghasilkan pertanyaan-pertanyaan ujian dari materi tersebut.'
+      title: 'B. Bagaimana cara kerja EvaloExam?',
+      content: 'Pengajar hanya cukup mengunggah modul yang ingin diujikan, dan mengatur komposisi sesi ujian yang ingin diujikan, setelah itu EvaloExam akan secara otomatis menghasilkan pertanyaan-pertanyaan ujian dari materi tersebut dan melakukan analisis soal.'
     },
     {
-      title: 'C. Apakah ExamAI bisa digunakan untuk semua jenis ujian?',
-      content: 'ExamAI dirancang untuk mendukung berbagai jenis ujian, dari sekolah hingga profesional. Namun, hasil terbaik akan bergantung pada kualitas dan format materi yang diunggah.'
+      title: 'C. Apakah EvaloExam bisa digunakan untuk semua jenis ujian?',
+      content: 'EvaloExam dirancang untuk mendukung berbagai jenis ujian, dari test atau quiz harian hingga ujian semester. Namun, hasil terbaik akan bergantung dari kualitas materi yang diunggah dan pengaturan komposisi sesi ujian yang ingin dilakukan.'
     },
     {
       title: 'D. Apakah saya bisa menyesuaikan soal-soal yang dihasilkan?',
-      content: 'Ya, Anda dapat menyesuaikan pertanyaan yang dihasilkan untuk lebih sesuai dengan kebutuhan belajar Anda.'
+      content: 'Ya, Anda dapat menyesuaikan pertanyaan yang nantinya akan dihasilkan untuk lebih sesuai dengan kebutuhan belajar Anda. Evaloexam memiliki kostumisasi untuk mengatur tingkat kesulitan, jumlah soal, topik yang ingin diujikan, dan input tambahan untuk memberitahu AI seperti apa bentuk soalnya secara explisit, misal menggunakan bahasa inggris atau berbentuk soal cerita dan lain sebagainya.'
     },
     {
-      title: 'E. Bagaimana ExamAI mempersonalisasi soal-soal ujian?',
-      content: 'ExamAI menganalisis materi yang Anda unggah dan menyesuaikan pertanyaan berdasarkan topik dan tingkat kesulitan, sehingga Anda mendapatkan soal-soal yang paling relevan dengan kebutuhan Anda.'
+      title: 'E. Bagaimana EvaloExam mempersonalisasi soal-soal ujian?',
+      content: 'EvaloExam menganalisis materi yang Anda unggah dan menyesuaikan pertanyaan berdasarkan topik dan tingkat kesulitan, sehingga Anda mendapatkan soal-soal yang paling relevan dengan kebutuhan Anda.'
     }
   ];
 

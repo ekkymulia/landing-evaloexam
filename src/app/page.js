@@ -35,7 +35,7 @@ export default function Home() {
                         href="https://bit.ly/contact-evaloexam"
                         className="btn is-blue btn-animation is-large inline-block rounded"
                       >
-                        <span>Coba Sekarang</span>
+                        <span>Daftar EvaloExam</span>
                       </a>
                       <a
                         href="/about"
@@ -44,15 +44,15 @@ export default function Home() {
                         <span>Pelajari lebih lanjut</span>
                       </a>
                     </div>
-                    {/* <p className="flex items-center gap-[10px] text-base font-semibold">
-                      <img
+                    <p className="flex items-center gap-[10px] text-base font-semibold">
+                      {/* <img
                         src="https://www.freepnglogos.com/uploads/star-png/file-featured-article-star-svg-wikimedia-commons-8.png"
                         alt="icon-green-star"
                         width={25}
                         height={24}
-                      />
-                      Rated 4.9/5 - dari lebih 600 pengguna
-                    </p> */}
+                      /> */}
+                      *) Kami telah siap beroperasi untuk publik
+                    </p>
                   </div>
                 </div>
                 {/* Hero Content Block */}
@@ -211,11 +211,11 @@ export default function Home() {
                     <div>
                       {/* Section Block */}
                       <div className="mb-5">
-                        <h2>Memeriksa hasil ujian hanya dalam satu dashboard</h2>
+                        <h2>Menjawab permasalahan yang kamu hadapi</h2>
                       </div>
                     </div>
                     <p>
-                      Kelola dan analisis hasil ujian dengan mudah melalui satu dashboard terintegrasi, memudahkan pemantauan kinerja siswa secara menyeluruh.
+                      Pernahkah mengalami kesulitan untuk membuat test yang sesuai dengan materi yang diajarkan dan cepat? EvaloExam hadir untuk membantu pengajar dalam membuat soal ujian yang relevan dan efektif secara otomatis oleh AI.
                     </p>
                     <div className="my-8 h-[1px] w-full bg-ColorBlack/10 lg:my-[30px]" />
                     <ul className="flex flex-col gap-5 font-semibold text-black">
@@ -233,7 +233,7 @@ export default function Home() {
                             <path d="M21.1744 9.63937C20.8209 9.27 20.4553 8.88937 20.3175 8.55469C20.19 8.24813 20.1825 7.74 20.175 7.24781C20.1609 6.33281 20.1459 5.29594 19.425 4.575C18.7041 3.85406 17.6672 3.83906 16.7522 3.825C16.26 3.8175 15.7519 3.81 15.4453 3.6825C15.1116 3.54469 14.73 3.17906 14.3606 2.82562C13.7137 2.20406 12.9787 1.5 12 1.5C11.0213 1.5 10.2872 2.20406 9.63937 2.82562C9.27 3.17906 8.88937 3.54469 8.55469 3.6825C8.25 3.81 7.74 3.8175 7.24781 3.825C6.33281 3.83906 5.29594 3.85406 4.575 4.575C3.85406 5.29594 3.84375 6.33281 3.825 7.24781C3.8175 7.74 3.81 8.24813 3.6825 8.55469C3.54469 8.88844 3.17906 9.27 2.82562 9.63937C2.20406 10.2862 1.5 11.0213 1.5 12C1.5 12.9787 2.20406 13.7128 2.82562 14.3606C3.17906 14.73 3.54469 15.1106 3.6825 15.4453C3.81 15.7519 3.8175 16.26 3.825 16.7522C3.83906 17.6672 3.85406 18.7041 4.575 19.425C5.29594 20.1459 6.33281 20.1609 7.24781 20.175C7.74 20.1825 8.24813 20.19 8.55469 20.3175C8.88844 20.4553 9.27 20.8209 9.63937 21.1744C10.2862 21.7959 11.0213 22.5 12 22.5C12.9787 22.5 13.7128 21.7959 14.3606 21.1744C14.73 20.8209 15.1106 20.4553 15.4453 20.3175C15.7519 20.19 16.26 20.1825 16.7522 20.175C17.6672 20.1609 18.7041 20.1459 19.425 19.425C20.1459 18.7041 20.1609 17.6672 20.175 16.7522C20.1825 16.26 20.19 15.7519 20.3175 15.4453C20.4553 15.1116 20.8209 14.73 21.1744 14.3606C21.7959 13.7137 22.5 12.9787 22.5 12C22.5 11.0213 21.7959 10.2872 21.1744 9.63937ZM16.2806 10.2806L11.0306 15.5306C10.961 15.6004 10.8783 15.6557 10.7872 15.6934C10.6962 15.7312 10.5986 15.7506 10.5 15.7506C10.4014 15.7506 10.3038 15.7312 10.2128 15.6934C10.1217 15.6557 10.039 15.6004 9.96937 15.5306L7.71937 13.2806C7.64969 13.2109 7.59442 13.1282 7.5567 13.0372C7.51899 12.9461 7.49958 12.8485 7.49958 12.75C7.49958 12.6515 7.51899 12.5539 7.5567 12.4628C7.59442 12.3718 7.64969 12.2891 7.71937 12.2194C7.86011 12.0786 8.05098 11.9996 8.25 11.9996C8.34855 11.9996 8.44613 12.019 8.53717 12.0567C8.62822 12.0944 8.71094 12.1497 8.78063 12.2194L10.5 13.9397L15.2194 9.21937C15.2891 9.14969 15.3718 9.09442 15.4628 9.0567C15.5539 9.01899 15.6515 8.99958 15.75 8.99958C15.8485 8.99958 15.9461 9.01899 16.0372 9.0567C16.1282 9.09442 16.2109 9.14969 16.2806 9.21937C16.3503 9.28906 16.4056 9.37178 16.4433 9.46283C16.481 9.55387 16.5004 9.65145 16.5004 9.75C16.5004 9.84855 16.481 9.94613 16.4433 10.0372C16.4056 10.1282 16.3503 10.2109 16.2806 10.2806Z" fill="black"/>
                           </svg>
                         </span>
-                        Kemudahan dalam analisis dan pemantauan kinerja siswa
+                        Kemudahan dalam pembuatan soal dan analisis kinerja siswa
                       </li>
                       <li className="flex items-center">
                         <span className="mr-3 inline-block text-xl">
@@ -252,13 +252,19 @@ export default function Home() {
                     data-jos_animation="fade-right"
                   >
                     {/* Content Image */}
-                    <img
-                      src="https://demo.themesberg.com/landwind/images/feature-1.png"
-                      alt="content-img-1"
-                      width={512}
-                      height={456}
-                      className="h-auto w-full"
+                    <div className="relative overflow-hidden" style={{ paddingTop: "60%" }}>
+                    <iframe
+                      className="absolute top-0 left-0 w-full h-full"
+                      src="https://www.youtube.com/embed/Lpx8qVHshB8?si=GJg6TYmUZQ5nTxmC&autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0"
+                      title="EvaloExam Demo Video"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
                     />
+                    </div>
+
+
                   </div>
                   {/* Content Block Right */}
                 </div>
@@ -288,10 +294,10 @@ export default function Home() {
                     </p>
                     <div className="mt-[50px]">
                       <a
-                        href="/about"
+                        href="https://youtu.be/Lpx8qVHshB8"
                         className="btn is-black btn-animation is-large inline-block rounded"
                       >
-                        <span>Pelajari lebih lanjut</span>
+                        <span>Lihat Video Demo</span>
                       </a>
                     </div>
                   </div>
@@ -343,11 +349,11 @@ export default function Home() {
               <div className="jos">
                 <div className="relative flex items-center justify-center">
                   <img
-                    src="https://masco-tailwind.netlify.app/assets/img/th-2/video-img.jpg"
+                    src="/images/evaloexam-hero.png"
                     alt="video-img"
                     width={1295}
                     height={699}
-                    className="h-auto w-full"
+                    className="h-auto w-full border border-4 border-ColorBlack rounded-[14px] pt-5"
                   />
                 </div>
               </div>
@@ -369,9 +375,9 @@ export default function Home() {
                 {/* Section Content Wrapper */}
                 <div className="jos mb-[50px]">
                   {/* Section Content Block */}
-                  <div className="mx-auto max-w-[700px]">
+                  <div className="mx-auto max-w-[800px]">
                     <h2 className="text-center text-white">
-                      Uji coba sekarang & tingkatkan kualitas pendidikan institusimu
+                      Kami menawarkan program uji coba, kontak kami dan mari mulai menggunakan EvaloExam
                     </h2>
                   </div>
                   {/* Section Content Block */}
@@ -382,7 +388,7 @@ export default function Home() {
                     href="https://bit.ly/contact-evaloexam"
                     className="btn is-black btn-animation is-large inline-block rounded"
                   >
-                    <span>Coba Sekarang</span>
+                    <span>Saya ingin mencoba</span>
                   </a>
                 </div>
               </div>
