@@ -67,6 +67,14 @@ export default function FooterLanding() {
                                 Bantuan
                             </a>
                             </li>
+                            <li>
+                            <a
+                                href="/privacy"
+                                className="hover:opcity-100 underline-offset-4 opacity-80 transition-all duration-300 ease-linear hover:underline"
+                            >
+                                Privacy Policy
+                            </a>
+                            </li>
                         </ul>
                         </div>
                         <div className="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1">
