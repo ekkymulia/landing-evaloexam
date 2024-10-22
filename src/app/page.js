@@ -52,7 +52,7 @@ export default function Home() {
                         height={24}
                       /> */}
                       *) Kami telah siap beroperasi untuk publik <br/>
-                      *) Uji coba gratis tersedia bagi pengguna baru!
+                      *) Coba gratis tersedia bagi pengguna baru! 🎉
                     </p>
                   </div>
                 </div>
