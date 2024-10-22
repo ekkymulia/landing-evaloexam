@@ -451,7 +451,7 @@ export default function About() {
                         />
                         <div className="mb-4 mt-6">
                             <div className="mb-1 text-xl font-semibold">Sanniyah Wafa Nurjihan</div>
-                            <span className="block text-opacity-80">Member</span>
+                            <span className="block text-opacity-80">Marketing Strategist</span>
                         </div>
                     </div>
                     <div className="jos flex flex-col items-center justify-center rounded-[10px] bg-white p-5 text-center" data-jos_animation="flip-left">
@@ -464,7 +464,7 @@ export default function About() {
                         />
                         <div className="mb-4 mt-6">
                             <div className="mb-1 text-xl font-semibold">Dimas Akbar Tama</div>
-                            <span className="block text-opacity-80">Member</span>
+                            <span className="block text-opacity-80">Content Strategy Specialist</span>
                         </div>
                     </div>
                     {/* Team Item */}
