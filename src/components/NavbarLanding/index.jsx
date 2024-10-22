@@ -111,7 +111,7 @@ export default function NavbarLanding() {
               Masuk akun lain
             </a> */}
             <a
-              href="https://EvaloExam.web.id"
+              href="https://examai.web.id"
               className="btn is-black btn-animation group hidden rounded sm:inline-block"
             >
               <span>Masuk ke Aplikasi</span>
