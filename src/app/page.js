@@ -35,7 +35,7 @@ export default function Home() {
                         href="https://bit.ly/contact-evaloexam"
                         className="btn is-blue btn-animation is-large inline-block rounded"
                       >
-                        <span>Uji Coba Gratis EvaloExam</span>
+                        <span>Coba Gratis EvaloExam</span>
                       </a>
                       <a
                         href="/about"
@@ -52,7 +52,7 @@ export default function Home() {
                         height={24}
                       /> */}
                       *) Kami telah siap beroperasi untuk publik <br/>
-                      *) Coba gratis tersedia bagi pengguna baru! 🎉
+                      *) Uji Coba gratis tersedia bagi pengguna baru! 🎉
                     </p>
                   </div>
                 </div>
