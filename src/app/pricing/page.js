@@ -6,6 +6,7 @@ import FooterLanding from "@/components/Footer/landing";
 import NavbarLanding from "@/components/NavbarLanding";
 import Image from "next/image";
 import Accordion from "@/components/AboutAccordion/Accordion";
+import {Chip} from "@nextui-org/react";
 
 
 export default function Pricing() {
@@ -23,12 +24,13 @@ export default function Pricing() {
               {/* Section Container */}
               <div className="container-default">
                 {/* Section Content Wrapper */}
-                <div className="jos mb-[60px] xl:mb-20">
+                <div className="jos mb-[40px] xl:mb-14">
                   {/* Section Content Block */}
-                  <div className="mx-auto max-w-[636px]">
+                  <div className="mx-auto max-w-[636px] flex flex-col items-center">
                     <h2 className="text-center">
                       Paket yang Terjangkau untuk Kebutuhan Pembelajaran Anda
                     </h2>
+                    <span className="text-center mt-4 font-bold">🎉 Uji Coba Gratis Tersedia bagi Pengguna Baru!</span>
                   </div>
                   {/* Section Content Block */}
                 </div>
@@ -49,8 +51,8 @@ export default function Pricing() {
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
                           Paket per Semester
                         </div>
-                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
-                          IDR 10.850.000,-
+                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-xl flex gap-2 items-center">
+                          <span className="line-through">IDR 10.850.000,-</span>  <Chip color="primary">IDR 5.450.000,- (50%)</Chip>
                         </div>
                         <p className="my-0"><strong>Yang akan anda dapatkan:</strong></p>
                         <ul className="mb-5">
@@ -88,8 +90,8 @@ export default function Pricing() {
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
                           Paket Licensed Solution
                         </div>
-                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
-                          IDR 64.999.999,-
+                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-xl flex gap-2 items-center">
+                           <span className="line-through">IDR 64.999.999,-</span>  <Chip color="primary">IDR 42.249.999,- (35%)</Chip>
                         </div>
                         <p className="my-0"><strong>Yang akan anda dapatkan:</strong></p>
                         <ul className="mb-5">
@@ -126,8 +128,8 @@ export default function Pricing() {
                         <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
                           Paket Starter
                         </div>
-                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-2xl">
-                          IDR 1.547.435,- / bulan
+                        <div className="mb-4 text-xl font-semibold leading-[1.33] -tracking-[0.5px] text-black lg:text-xl flex gap-2 items-center">
+                          <span className="line-through">IDR 1.547.435,- / bulan </span>  <Chip color="primary">IDR 990.358,- (36%)</Chip>
                         </div>
                         <p className="my-0"><strong>Yang akan anda dapatkan (per bulan):</strong></p>
                         <ul className="mb-5">
@@ -172,7 +174,7 @@ export default function Pricing() {
                 {/* Section Container */}
                 <div className="container-default">
                 {/* Section Content Wrapper */}
-                <div className="jos mb-[60px] xl:mb-20">
+                <div className="jos mb-[40px] xl:mb-16">
                     {/* Section Content Block */}
                     <div className="mx-auto max-w-[700px]">
                     <h2 className="text-center">
@@ -263,10 +265,19 @@ export default function Pricing() {
                 {/* Feature List */}
                 </div>
                 {/* Section Container */}
+                <div className="jos flex justify-center pt-16">
+                  <a
+                    href="https://bit.ly/contact-evaloexam"
+                    className="btn is-black btn-animation is-large inline-block rounded"
+                  >
+                    <span>Klik untuk Uji Coba Gratis</span>
+                  </a>
+                </div>
             </div>
             {/* Section Space */}
             </div>
         </section>
+        
         {/*...::: Team Section End :::... */}
         {/*...::: FAQ Section Start :::... */}
         <section className="section-faq">

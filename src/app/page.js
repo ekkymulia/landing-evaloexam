@@ -51,7 +51,8 @@ export default function Home() {
                         width={25}
                         height={24}
                       /> */}
-                      *) Kami telah siap beroperasi untuk publik
+                      *) Kami telah siap beroperasi untuk publik <br/>
+                      *) Uji coba gratis tersedia bagi pengguna baru!
                     </p>
                   </div>
                 </div>
@@ -377,7 +378,7 @@ export default function Home() {
                   {/* Section Content Block */}
                   <div className="mx-auto max-w-[800px]">
                     <h2 className="text-center text-white">
-                      Kami menawarkan program uji coba, kontak kami dan mari mulai menggunakan EvaloExam
+                      Coba EvaloExam terlebih dahulu, jika cocok bayar kemudian!
                     </h2>
                   </div>
                   {/* Section Content Block */}
@@ -388,7 +389,7 @@ export default function Home() {
                     href="https://bit.ly/contact-evaloexam"
                     className="btn is-black btn-animation is-large inline-block rounded"
                   >
-                    <span>Saya ingin mencoba</span>
+                    <span>Klik untuk Uji Coba Gratis</span>
                   </a>
                 </div>
               </div>
