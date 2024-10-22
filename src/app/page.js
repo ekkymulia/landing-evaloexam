@@ -35,7 +35,7 @@ export default function Home() {
                         href="https://bit.ly/contact-evaloexam"
                         className="btn is-blue btn-animation is-large inline-block rounded"
                       >
-                        <span>Daftar EvaloExam</span>
+                        <span>Uji Coba Gratis EvaloExam</span>
                       </a>
                       <a
                         href="/about"
